@@ -1,0 +1,283 @@
+
+*{
+    transition: all 0.5s ease-in-out;
+  }
+
+.contenido{
+    background-image: url('../Imagen/NETFLIX1.jpeg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 120px; 
+ 
+}
+
+
+
+.nav{
+    padding-top: 100px;   
+}
+
+.menu{
+    display: none;
+    width: 100%;
+}
+
+small{
+    background: red;
+}
+
+.butt, .buttt {
+    display: none;
+    
+}
+
+
+ 
+.precio1{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+
+.img77{
+    width: 70%;
+    display: none;
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 100%;   
+}
+
+.img6 {
+    width: 6%;
+    padding-top: 10%;
+}
+
+h1{
+    font-size: 35px;
+   
+    color: white;
+    margin-top: -1px;  
+}
+
+.text{
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+button {
+    width: 20%;
+    height: 35px;   
+}
+
+.butt{
+    background: rgba(128, 128, 128, 0.575);
+    color: white;
+    width: 25%;
+    height: 35px;    
+}
+
+.contenido2{
+     
+   display: flex;
+   padding-top: 10px;
+   gap: 60px;
+  
+   
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5 {
+    border: 2px solid red;
+    width: 15%;
+    height: 190px;
+    text-align: center;
+    color: white;
+    display: none;
+   
+   
+}
+
+h2{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.img7, .img8, .img9, .img10, .img11 {
+    width: 40%;
+
+    
+}
+
+@media only screen and (max-width:900px){
+    
+    .contenido{
+       height: 2100px;
+       width: 100%;
+    }
+
+    .contenido2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .caja1, .caja2, .caja3, .caja4, .caja5 {
+        border: 2px solid blueviolet;
+        width: 70%;
+        height: 130px;  
+        padding-top: 50px; 
+    }
+
+    .nav{
+        width: 30px;  
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .img6{
+        width: 15%;
+    }
+
+    .text{
+        font-size: 30px;
+    }
+
+    .butt, .buttt {
+     
+      width: 70%;
+        
+    }
+
+     
+.precio1{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    width: 50%;
+}
+
+h2{
+    font-size: 10px;
+    margin-top: -40px;
+}
+    
+   
+}
+
+.img7, .img8, .img9, .img10, .img11{
+    width: 20%;
+}
+
+p{
+    font-size: 10px;
+}
+
+
+
+@media only screen and (max-width:768px){
+    
+    h1{
+     font-size: 30px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+         
+.precio1{
+    position: absolute;
+    top: 1920px;
+    left: 5%;
+    width: 50%;
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5 {
+    border: 2px solid greenyellow;
+    width: 80%;
+    height: 170px;  
+   
+}
+
+}
+
+
+
+@media only screen and (max-width:400px){
+    .precio1{
+        position: absolute;
+        top: 600px;
+        left: 5%;
+        width: 50%;
+      
+    }
+
+    h1{
+        font-size: 16px;
+        margin-left: -150px;
+    }
+
+    .text{
+        font-size: 14px;
+        width: 100%;
+        padding-top: 20px;
+        margin-left: -150px;
+    }
+
+    .butt{
+        width: 100%;
+       
+    }
+
+      .buttt{
+        width: 100%;
+        margin-left: -150px;
+    
+      }
+
+      .caja1, .caja2, .caja3, .caja4, .caja5 {
+        border: 2px solid blueviolet;
+        width: 100%;
+        height: 110px;  
+        padding-top: 50px; 
+        margin-left: -100px;
+    }
+
+    h2{
+        font-size: 10px;
+    }
+
+    .contenido{
+        height: 1450px;
+        
+     }
+
+     .img6 {
+        width: 50%;
+        margin-left: -150px;
+        
+    }
+
+}

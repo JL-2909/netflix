@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ccs/Estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+     <div class="contenido">
+        <div class="bloque">
+            <div class="nav">
+                <a href="https://www.netflix.com/co/"><img class="img1"  src="Imagen/NETFLIX2.jpg" alt=""></a>
+                <a href="#"><img class="img2"  src="Imagen/NETFLIX3.jpg" alt=""></a>
+                <a href="#"><img class="img4"  src="Imagen/NETFLIX5.jpg" alt=""></a>
+                <a href="#"><img class="img3"  src="Imagen/NETFLIX4.jpg" alt=""></a>
+                <a href="#"><img class="img5"  src="Imagen/NETFLIX6.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="precio">
+            <div class="precio1">
+             <img  class="img77" src="Imagen/precios.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="bloque1">
+          
+            <div class="menu">
+               
+                <a href=""><img class="img6" src="Imagen/NETFLIX13.jpg" alt=""></a>
+                <h1>LA CASA <small>DE</small>  PAPEL</h1>
+                <P class="text">ocho atracadores toman rehenes en la fabrica nacional de moneda y timbre española.
+                   Desde el encierro, su lidar manipula la policia para llevar a cabo un ambicioso plan.</P>
+                <button class="buttt"> <img src="Imagen/NETFLIX14.jpg" alt="">Reproducir</button>
+                <button class="butt">Más información</button>  
+            </div>
+           
+            <div class="contenido2">
+                <div class="caja1">
+                    <h2></h2>
+                    <img class="img7"  src="Imagen/NETFLIX8.jpg" alt="">
+                    <p></p>
+                </div>
+                <div class="caja2">
+                    <h2></h2>
+                    <img class="img8"  src="Imagen/NETFLIX9.jpg" alt="">
+                    <p></p>
+                </div>
+                <div class="caja3">
+                    <h2></h2>
+                    <img class="img9"  src="Imagen/NETFLIX.10jpg.jpg" alt="">
+                    <p></p>
+                </div>
+                <div class="caja4">
+                    <h2></h2>
+                    <img class="img10"  src="Imagen/NETFLIX11.jpg" alt="">
+                    <p></p>
+                </div>
+                <div class="caja5">
+                    <h2></h2>
+                    <img class="img11"  src="Imagen/NETFLIX12.jpg" alt="">
+                    <p></p>
+                </div>
+        
+              </div>
+
+        </div>
+      </div>
+    </div>
+       
+    <script>
+        let title = ["THE ÉLITE","EL IRLANDÉS","LAS CHICAS DE CABLE","THE WICHER","KLANS"]
+        $(".caja1 h2").html(title[0]);
+        $(".caja2 h2").html(title[1]);
+        $(".caja3 h2").html(title[2]);
+        $(".caja4 h2").html(title[3]);
+        $(".caja5 h2").html(title[4]); 
+    
+        let text = ["Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, at?","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, at?","Lorem ipsum dolor sit amet, consectetur elit. Illo, at?","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, at?","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, at?"]
+        $(".caja1 p").html(text[0]);
+        $(".caja2 p").html(text[1]);
+        $(".caja3 p").html(text[2]);
+        $(".caja4 p").html(text[3]);
+        $(".caja5 p").html(text[4]); 
+
+       
+        $(".img2").click(function() {
+            $(".menu").slideToggle();
+           
+        }); 
+
+        $(".img4").click(function() {
+            $(".butt,.buttt").slideToggle();
+           
+        }); 
+
+        $(".img3").click(function() {
+            $(".img77").slideToggle();
+           
+        }); 
+
+        $(".img5").click(function() {
+            $(".caja1, .caja2, .caja3, .caja4, .caja5").slideToggle();
+           
+        }); 
+    
+    </script>
+
+
+</body>
+</html>
